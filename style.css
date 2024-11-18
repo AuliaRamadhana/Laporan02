@@ -1,0 +1,69 @@
+/* Mode rapi */
+body.mode-rapi {
+    font-family: 'Times New Roman', serif;
+    background: linear-gradient(120deg, #f0f8ff, #e6e6fa);
+    color: black;
+    margin: 2cm;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    text-shadow: 1px 1px 2px gray;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  h3 {
+    font-size: 1.2rem;
+    color: darkblue;
+    cursor: pointer;
+    transition: color 0.2s;
+  }
+  
+  h3:hover {
+    color: crimson;
+  }
+  
+  .content {
+    margin-left: 2rem;
+  }
+  
+  .btn-mode {
+    background-color: teal;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .btn-mode:hover {
+    background-color: darkcyan;
+  }
+  
+  /* Mode berantakan */
+  body.mode-berantakan {
+    font-family: 'Comic Sans MS', sans-serif;
+    background: repeating-linear-gradient(45deg, yellow, yellow 20px, red 20px, red 40px);
+    color: limegreen;
+    margin: 1cm;
+  }
+  
+  .content {
+    font-size: 14px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
